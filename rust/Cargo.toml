@@ -1,0 +1,9 @@
+[workspace]
+
+members = [
+    "bench",
+    "greeting",
+]
+
+[profile.release]
+debug = true

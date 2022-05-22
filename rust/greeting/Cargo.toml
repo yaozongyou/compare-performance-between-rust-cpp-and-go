@@ -1,0 +1,17 @@
+[package]
+name = "greeting"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = "0.3"
+hyper = { version = "0.14", features = ["full"] }
+tokio = { version = "1", features = ["full"] }
+futures = "0.3"
+urlencoding = "2.1.0"
+
+[build-dependencies]
+anyhow = "1.0"
+vergen = "6"
